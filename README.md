@@ -1,4 +1,4 @@
-# Package name
+# Phpunit Extend Report
 [![License](https://img.shields.io/github/license/tonicforhealth/phpunit-extend-report.svg?maxAge=2592000)](LICENSE.md)
 [![Build Status](https://travis-ci.org/tonicforhealth/phpunit-extend-report.svg?branch=master)](https://travis-ci.org/tonicforhealth/phpunit-extend-report)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/tonicforhealth/phpunit-extend-report/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/tonicforhealth/phpunit-extend-report/?branch=master)
@@ -20,6 +20,8 @@ phpunit —printer TonicForHealth\\Test\\Util\\Log\\JUnitExtended
 
 or in the phpunit.xml.dist add:
 
+```xml
 <listeners>
-  <listener class="TonicForHealth\\Test\\Util\\Log\\JUnitExtended" />
-<listeners>
+    <listener class="TonicForHealth\\Test\\Util\\Log\\JUnitExtended" />
+ <listeners>
+```
